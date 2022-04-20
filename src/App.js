@@ -1,7 +1,8 @@
-import About from './About';
 import './App.css';
+import About from './About';
 import Header from './Header';
 import Projects from './Projects';
+import Social from './Social';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <About />
       <Projects />
+      <Social />
     </div>
   );
 }
