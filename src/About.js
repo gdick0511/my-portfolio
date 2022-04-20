@@ -17,7 +17,6 @@ function About(){
             <img className='logo' src={RubyLogo}></img>
             <img className='logo' src={RailsLogo}></img> 
             <p>These are words that are just a place holder</p>
-            
         </div>
     )
 }

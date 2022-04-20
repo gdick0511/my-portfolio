@@ -5,7 +5,7 @@ function Header(){
     return(
         <div>
             <h1>Garrett Dick</h1>
-            <img src={Picture}/>
+            <img id='me'src={Picture}/>
         </div>
     )
 }
