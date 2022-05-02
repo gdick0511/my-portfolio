@@ -28,3 +28,9 @@ code {
 .DarkMode{
   background-color: black;
 }
+
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
