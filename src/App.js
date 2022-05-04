@@ -3,9 +3,9 @@ import About from './About';
 import Header from './Header';
 import Projects from './Projects';
 import Social from './Social';
-import { useState } from 'react'
-import Main from './Main';
 import Navbar from './Navbar';
+import Main from './Main';
+import { useState } from 'react'
 
 function App() {
   const [mode, setMode] = useState(true)
@@ -16,14 +16,13 @@ function App() {
 
   return (
     <div className="App">
-      {/* <button onClick={handleDark}>{mode ? "Dark Mode" : "Light Mode" }</button> */}
       <Navbar />
-      <Main />
       <Header />
-      <About />
+      <Main />
+      {/* <About />
       <Projects />
-      <Social />
-    </div>
+      <Social />  */}
+    </div> 
   );
 }
 
