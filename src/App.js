@@ -3,16 +3,26 @@ import About from './About';
 import Header from './Header';
 import Projects from './Projects';
 import Social from './Social';
+import Navbar from './Navbar';
+import Main from './Main';
+import { useState } from 'react'
 
 function App() {
+  const [mode, setMode] = useState(true)
+  
+  function handleDark(){
+    setMode((current) => !current)
+  }
+
   return (
     <div className="App">
-      {/* <h1>Hello World!</h1> */}
-      <Header />
-      <About />
+      <Navbar />
+      {/* <Header /> */}
+      <Main />
+      {/* <About />
       <Projects />
-      <Social />
-    </div>
+      <Social />  */}
+    </div> 
   );
 }
 
