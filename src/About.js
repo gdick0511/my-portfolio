@@ -12,11 +12,12 @@ function About(){
     return(
         <div id='aboutMe'>
             <h2>About Me</h2>
-            {/* <h1>Garrett Dick</h1> */}
             <img id='me' src={Picture}/>
-            <p>Hi there! 
-                <br></br>My name is Garrett Dick and I am a Full-Stack Software Developer from Houston,TX. I graduated from Flatiron School's full-immersive software engineering bootcamp in January 2022 and have a passion for applying new technologies and have a knack for technical problem solving. With a background in IT, I've collaborated cross-platform intergration for user front-end programs.
-            </p>
+            <div id="about_words">
+                <p>Howdy! 
+                    <br></br>My name is Garrett and I am a Full-Stack Software Developer from Houston,TX. I graduated from Flatiron School's full-immersive software engineering bootcamp in January 2022 and have a passion for learning and applying new technologies and problem solving. When I am not behind the keyboard I enjoy creating music, exploring the outdoors and trying new recipes in the kitchen.
+                </p>
+            </div>
             <img className='logo' src={HTMLLogo}></img>
             <img className='logo' src={CSSLogo}></img>
             <img className='logo' src={JSLogo}></img>
