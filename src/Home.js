@@ -1,9 +1,12 @@
+import Forest from './images/Forest.png'
+
 function Home(){
 
     return(
         
         <div>
-            <h3> Hello World </h3>
+            <img className='Forest' src={Forest}></img>
+            <p className='Home'>Welcome to my portfolio and all things me. This is a space where projects, technologies, passion and goals all coalesce. </p>
         </div>
     )
 }

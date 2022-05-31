@@ -4,16 +4,16 @@ function Navbar(){
 
     return(
         <div className='navbar'>
-            <NavLink to='/'>
+            <NavLink className='navbar_text'to='/'>
                 Home
             </NavLink>
-            <NavLink to='about'>
+            <NavLink className='navbar_text' to='about'>
                 About
             </NavLink>
-            <NavLink to='projects'>
+            <NavLink className='navbar_text' to='projects'>
                 Projects
             </NavLink>
-            <NavLink to='social'>
+            <NavLink className='navbar_text' to='social'>
                 Social
             </NavLink>
         </div>

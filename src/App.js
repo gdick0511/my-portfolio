@@ -1,8 +1,4 @@
 import './App.css';
-import About from './About';
-import Header from './Header';
-import Projects from './Projects';
-import Social from './Social';
 import Navbar from './Navbar';
 import Main from './Main';
 import { useState } from 'react'
@@ -17,11 +13,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <Header /> */}
       <Main />
-      {/* <About />
-      <Projects />
-      <Social />  */}
     </div> 
   );
 }

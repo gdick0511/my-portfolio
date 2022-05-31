@@ -6,11 +6,51 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(238, 231, 220);
+  font-family: 'Libre Franklin', sans-serif; 
+  font-family: 'Raleway', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
+}
+
+.projectList{
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(56, 55, 55);
+  width : max-content;
+  height: auto;
+  padding: 1%;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 50px;
+  box-shadow: 5px 10px grey;
+  text-decoration: none;
+}
+
+.socialList{
+  display: flex;
+  justify-content: space-evenly;
+  width : max-content;
+  padding: 1%;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 50px;
+  box-shadow: 5px 10px grey;
+  text-decoration: none;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  border-bottom-style: solid;
+}
+
+.navbar_text{
+  text-decoration: none;
+  color: rgb(56, 55, 55);
 }
 
 .logo{
@@ -20,20 +60,33 @@ code {
   padding: 1%;
 }
 
+.Home{
+  font-size: x-large;
+  margin-left: 35%;
+  width: 30%;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.Forest{
+  height: 5%;
+  width: 20%;
+}
+
 #me{
   border-radius: 50%;
   height: 20rem;
   width: auto;
 }
 
-.navbar{
-  display: flex;
-  justify-content: space-evenly;
-  padding: 1rem;
-}
 
 #about_words{
   margin-left: 35%;
   width: 30%;
-  /* text-align: center; */
+  font-size: large;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  margin-top: 1rem;
 }
