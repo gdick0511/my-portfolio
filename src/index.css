@@ -42,6 +42,9 @@ code {
 }
 
 .navbar{
+  position: sticky;
+  top: 0;
+  background-color: rgb(238, 231, 220);
   display: flex;
   justify-content: space-evenly;
   padding: 1rem;
